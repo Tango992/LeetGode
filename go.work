@@ -1,0 +1,7 @@
+go 1.21.3
+
+use (
+	./2-add-two-numbers
+	./2659-make-array-empty
+	./501-find-mode-in-binary-search-tree
+)

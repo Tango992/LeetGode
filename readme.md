@@ -1,5 +1,5 @@
 # Readme
 
-My own take on solving Leetcode problems using Go.
+Personal journal on solving Leetcode problem sets using Go.
 
-Might not be the most efficient answer since it's only for personal progress.
+Might not be the most efficient answer.
