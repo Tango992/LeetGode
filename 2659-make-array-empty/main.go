@@ -8,9 +8,12 @@ func main() {
 	fmt.Println(countOperationsToEmptyArray([]int{1,2,3}))
 }
 
+/*
+	https://leetcode.com/problems/make-array-empty
+*/
 func countOperationsToEmptyArray(nums []int) int64 {
 	var operations int64
-	
+
 	for {
 		var currentSmallest int
 		smallest := false

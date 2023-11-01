@@ -20,7 +20,7 @@ func main() {
 func findMode(root *TreeNode) []int {
 	resChan := make(chan int, 10000)
 
-	walkTheTree(root, resChan)
+	inOrderTraversal(root, resChan)
 	close(resChan)
 
 	maps := map[int]int{}
@@ -43,13 +43,13 @@ func findMode(root *TreeNode) []int {
 	return result
 }
 
-func walkTheTree(tree *TreeNode, ch chan<- int) {
+func inOrderTraversal(tree *TreeNode, ch chan<- int) {
 	if tree == nil {
 		return
 	}
+	inOrderTraversal(tree.Left, ch)
 	ch <- tree.Val
-	walkTheTree(tree.Left, ch)
-	walkTheTree(tree.Right, ch)
+	inOrderTraversal(tree.Right, ch)
 }
 
 func generateTree() *TreeNode {
