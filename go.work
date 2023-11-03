@@ -1,6 +1,7 @@
 go 1.21.3
 
 use (
+	./1441-build-an-array-with-stack-operation
 	./2-add-two-numbers
 	./2265-count-nodes-equeal-to-average-of-subtree
 	./2659-make-array-empty
