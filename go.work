@@ -1,8 +1,10 @@
 go 1.21.4
 
 use (
+	./1071-greatest-common-divisor-of-strings
 	./1441-build-an-array-with-stack-operation
 	./1503-last-moment-before-all-ants-fall-out-of-a-plank
+	./151-reverse-words-in-a-string
 	./1535-find-the-winner-of-an-array-game
 	./1768-merge-strings-alternately
 	./1845-seat-reservation-manager
