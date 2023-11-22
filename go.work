@@ -11,6 +11,7 @@ use (
 	./1921-eliminate-maximum-number-of-monsters
 	./2-add-two-numbers
 	./2265-count-nodes-equeal-to-average-of-subtree
+	./2390-removing-stars-from-a-string
 	./2659-make-array-empty
 	./283-move-zeroes
 	./501-find-mode-in-binary-search-tree
