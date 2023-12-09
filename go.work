@@ -17,4 +17,5 @@ use (
 	./2659-make-array-empty
 	./283-move-zeroes
 	./501-find-mode-in-binary-search-tree
+	./94-binary-tree-inorder-traversal
 )
