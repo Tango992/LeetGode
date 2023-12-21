@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	two()
+	three()
 }
 
 func one() {
@@ -31,4 +31,17 @@ func two() {
 		c++
 	}
 	fmt.Println(c-a)
+}
+
+func three() {
+	ch := []string{"Z", "X", "C"}
+	tmp := ""
+
+	for i := 0; i < 5; i++ {
+		tmp = ch[0]
+		ch[0] = ch[2]
+		ch[1] = tmp
+		ch[2] = ch[1]
+	}
+	fmt.Println(ch)
 }
