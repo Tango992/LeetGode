@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	three()
+	four()
 }
 
 func one() {
@@ -44,4 +44,14 @@ func three() {
 		ch[2] = ch[1]
 	}
 	fmt.Println(ch)
+}
+
+func four() {
+	amount := []int{0,0,0,0,0,0,0,0,0,0}
+	numbers := []int{1,2,3,4,2,9,3}
+	for i := 0; i < len(numbers); i++ {
+		amount[numbers[i]]++
+	}
+	fmt.Println(amount)
+	fmt.Println(amount[1])
 }
