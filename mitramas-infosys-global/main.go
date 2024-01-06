@@ -53,5 +53,5 @@ func four() {
 		amount[numbers[i]]++
 	}
 	fmt.Println(amount)
-	fmt.Println(amount[1])
+	fmt.Println(amount[1]) 
 }
