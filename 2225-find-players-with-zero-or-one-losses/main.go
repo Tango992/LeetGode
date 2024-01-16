@@ -13,7 +13,7 @@ func main() {
 func findWinners(matches [][]int) [][]int {
 	loseCounts := make(map[int]int)
 	for _, val := range matches {
-		loseCounts[val[0]] = loseCounts[val[0]]
+		loseCounts[val[0]] += 0
 		loseCounts[val[1]]++
 	}
 
