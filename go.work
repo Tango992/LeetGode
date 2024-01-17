@@ -1,4 +1,4 @@
-go 1.21.4
+go 1.21.6
 
 use (
 	.
@@ -12,10 +12,12 @@ use (
 	./1845-seat-reservation-manager
 	./1921-eliminate-maximum-number-of-monsters
 	./2-add-two-numbers
+	./2225-find-players-with-zero-or-one-losses
 	./2265-count-nodes-equeal-to-average-of-subtree
 	./2390-removing-stars-from-a-string
 	./2659-make-array-empty
 	./283-move-zeroes
+	./380-insert-delete-getrandom
 	./501-find-mode-in-binary-search-tree
 	./94-binary-tree-inorder-traversal
 )
