@@ -3,6 +3,7 @@ go 1.21.6
 use (
 	.
 	./1071-greatest-common-divisor-of-strings
+	./1207-unique-numbers-of-occurrences
 	./1441-build-an-array-with-stack-operation
 	./1503-last-moment-before-all-ants-fall-out-of-a-plank
 	./151-reverse-words-in-a-string
@@ -20,4 +21,5 @@ use (
 	./380-insert-delete-getrandom
 	./501-find-mode-in-binary-search-tree
 	./94-binary-tree-inorder-traversal
+	./hackerrank
 )
