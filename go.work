@@ -20,6 +20,6 @@ use (
 	./283-move-zeroes
 	./380-insert-delete-getrandom
 	./501-find-mode-in-binary-search-tree
+	./645-set-mismatch
 	./94-binary-tree-inorder-traversal
-	./hackerrank
 )
