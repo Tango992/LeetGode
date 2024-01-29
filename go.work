@@ -5,6 +5,7 @@ use (
 	./1071-greatest-common-divisor-of-strings
 	./1207-unique-numbers-of-occurrences
 	./1441-build-an-array-with-stack-operation
+	./1457-pseudo-palindromic-paths-in-a-binary-tree
 	./1503-last-moment-before-all-ants-fall-out-of-a-plank
 	./151-reverse-words-in-a-string
 	./1535-find-the-winner-of-an-array-game
